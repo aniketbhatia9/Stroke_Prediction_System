@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STROKE_PREDICTION</title>
+     <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<!--<form action = "/submit" method = "post">-->
+<!--  <label for="sm">Enter your Cigarette per Day Value</label>-->
+<!--  <br>-->
+<!--  <input type="text" id = "sm" name="sm" class="calculate" required>-->
+<!--  <br>-->
+<!--  <label for ="bmi">Enter your BMI Value</label>-->
+<!--  <br>-->
+<!--  <input type="text" id = "bmi" name="bmi" class="calculate" required>-->
+<!--  <br>-->
+<!--  <label for="ex">Enter your Exercise Hours Per Week Value</label>-->
+<!--  <br>-->
+<!--  <input type="text" id = "ex" name="ex" class="calculate" required>-->
+<!--  <br>-->
+<!--  <label for ="bp">Enter your Blood Pressure (Diastolic) Value</label>-->
+<!--  <br>-->
+<!--  <input type="text" id = "bp" name="bp" class="calculate" required>-->
+<!--  <br>-->
+<!--  <button type="submit" class="button">Submit</button>-->
+<!--</form>-->
+<!--<img src= "{{url_for('static', filename='/Image/worry_heart.jpeg')}}" >-->
+<div class="contact-us">
+      <form action = "/submit" method = "post">
+        <input name="sm" placeholder="Enter your Cigarette per Day Value" required="" type="text" />
+        <input name="bmi" placeholder="Enter your BMI Value" required="" type="text" />
+        <input name="ex" placeholder="Enter your Exercise Hours Per Week Value" required="" type="text" />
+        <input name="bp" placeholder="Enter your Blood Pressure Value" required="" type="text" />
+        <button type="submit" class="button">SUBMIT</button>
+      </form>
+    </div>
+</body>
+</html>
